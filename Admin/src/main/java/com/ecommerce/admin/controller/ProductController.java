@@ -121,7 +121,7 @@ public class ProductController {
             e.printStackTrace();
             attributes.addFlashAttribute("error", "Failed to update!");
         }
-        return "redirect:/products";
+        return "redirect:/products/0";
 
     }
 
